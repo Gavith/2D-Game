@@ -1,0 +1,30 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden; /* Prdevent scrolling */
+}
+
+/* Background styles */
+.background {
+  width: 100%;
+  height: 100%;
+  background-image: url(../asset/images/background.jpg); /* Link background image */
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position-x: 0;
+}
+
+/* Character styles */
+.boy {
+  width: 350px; /* Resize character */
+  position: absolute;
+  margin-top: 500px;
+}
